@@ -27,8 +27,8 @@ const BlogPost = props => {
       <div className="content">
         <h1>{props.data.contentfulBlogPost.title}</h1>
         <span className="meta">
-          Posted on {props.data.contentfulBlogPost.publishedDate}
-        </span>
+          Posted  on {props.data.contentfulBlogPost.publishedDate}
+        </span> 
 
         {props.data.contentfulBlogPost.featuredImage && (
           <Img
