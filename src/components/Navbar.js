@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import React,{useState} from "react"
+// import React,{useState} from "react"
 import '../../Styles/Navbar.css'
 import Link from 'gatsby'
-import { Twirl as Hamburger } from 'hamburger-react'
+// import { Twirl as Hamburger } from 'hamburger-react'
 import { auth } from "gatsby-theme-firebase";
 
 const Navigationbar = ({LoginCondition}) => {

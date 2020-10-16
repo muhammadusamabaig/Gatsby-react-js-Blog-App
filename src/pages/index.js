@@ -9,8 +9,8 @@ import MobileNavbar from '../components/MobileNavbar'
 // import LoginForm from '../components/LoginForm'
 import MobileSlider from '../components/MobileSlider'
 const IndexPage = () => {
-const { isLoading, isLoggedIn, profile } = useAuth();
-const [toggleLogin, setToggleLogin] = React.useState(false);
+const {  isLoggedIn } = useAuth();
+// const [toggleLogin, setToggleLogin] = React.useState(false);
 
 // console.log(isLoading,isLoggedIn,profile)
 return(

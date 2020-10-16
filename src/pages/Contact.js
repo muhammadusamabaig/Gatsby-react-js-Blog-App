@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import React,{useState} from "react"
+// import React,{useState} from "react"
 import '../../Styles/Navbar.css'
-import Link from 'gatsby'
-import { Twirl as Hamburger } from 'hamburger-react'
-import { auth } from "gatsby-theme-firebase";
+// import Link from 'gatsby'
+// import { Twirl as Hamburger } from 'hamburger-react'
+// import { auth } from "gatsby-theme-firebase";
 
 const Contact = ({LoginCondition}) => {
     // const [isOpen, setOpen] = useState(false)

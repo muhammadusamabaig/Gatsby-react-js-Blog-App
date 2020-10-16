@@ -7,11 +7,11 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 import '../../Styles/global.css'
-import LoginForm from "./LoginForm"
-import Navigationbar from './Navbar'
-import Modal from './Modal'
+// import LoginForm from "./LoginForm"
+// import Navigationbar from './Navbar'
+// import Modal from './Modal'
 import Footer from './Footer'
 // import "./layout.css"
 const Layout = ({ children }) => {
