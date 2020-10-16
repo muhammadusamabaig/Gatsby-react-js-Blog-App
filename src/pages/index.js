@@ -1,22 +1,34 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import { useAuth } from "gatsby-theme-firebase";
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Navigationbar from '../components/Navbar'
+import CardListPage from '../components/CardList'
+import {Link} from 'gatsby'
+import Slider from '../components/Slider'
+import MobileNavbar from '../components/MobileNavbar'
+// import LoginForm from '../components/LoginForm'
+import MobileSlider from '../components/MobileSlider'
+const IndexPage = () => {
+const { isLoading, isLoggedIn, profile } = useAuth();
+const [toggleLogin, setToggleLogin] = React.useState(false);
 
-const IndexPage = () => (
+// console.log(isLoading,isLoggedIn,profile)
+return(
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Navigationbar LoginCondition={isLoggedIn}/>
+    <MobileNavbar/>
+    <Slider/>
+    <MobileSlider/>
+    <CardListPage isLoggedIn={isLoggedIn}/>
+        <Link to="/blog/">Visit the Blog Page</Link>
+
+{/* <img style={{width:"20vh"}} src={BlogImg} alt="A dog smiling in a party hat" /> */}
+{
+  // true && <LoginForm setToggleLogin={setToggleLogin}/>
+}
+{/* <p style={{background:"rgba(255,255,255,.2)"}}>jjjj</p> */}
+
   </Layout>
 )
-
+  }
 export default IndexPage

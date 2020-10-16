@@ -1,0 +1,49 @@
+.Slid1{
+    background-image: url("../src/assets/cutting.jpg");
+    height: 80vh;
+    background-size:cover;
+
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+.Slid2{
+    background-image: url("../src/assets/cack.jpg");
+    height: 80vh;
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+.Slid3{
+    background-image: url("../src/assets/hara_masala.jpg");
+    height: 80vh;
+    background-size:cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+
+.MobileSlid1{
+    background-image: url("../src/assets/hara_masala.jpg");
+    height: 40vh;
+    background-size:cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+.MobileSlid2{
+    background-image: url("../src/assets/cack.jpg");
+    height: 40vh;
+    background-size:cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+.MobileSlid3{
+    background-image: url("../src/assets/tikka.jpg");
+    height: 40vh;
+    background-size:cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}

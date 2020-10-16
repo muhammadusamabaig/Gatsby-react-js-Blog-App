@@ -1,0 +1,25 @@
+
+
+.main {
+    /* background-color: lavenderblush; */
+    background-image: url('../src/assets/backContainer.jpg');
+    background-size:100% auto;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* filter:blur(4px); */
+    /* filter:alpha(opacity=10) */
+  }
+
+  .mainMobile{
+    
+      /* background-color: lavenderblush; */
+      background-image: url('../src/assets/backContainer.jpg');
+      background-size:400% auto;
+      background-repeat: no-repeat;
+      /* filter:blur(1px); */
+      /* filter:alpha(opacity=10) */
+      /* background-repeat: no-repeat; */
+
+  }
+
+

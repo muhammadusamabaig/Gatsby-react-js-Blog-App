@@ -1,0 +1,14 @@
+.CardBackground{
+    /* background-image: url("../assets//backContainer.jpg"); */
+    background-size: 110% auto;
+    border:2px solid whitesmoke;
+    height: 40vh;
+    color: white;
+    transition:all 0.5s ;
+}
+
+.CardBackground:hover{
+    transform: scale(0.9,0.9);
+    transition: all .3s ease-out;
+
+}

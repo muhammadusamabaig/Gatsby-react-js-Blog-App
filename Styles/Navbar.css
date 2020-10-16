@@ -1,0 +1,39 @@
+.Nav{
+    list-style: none;
+}
+
+
+
+
+.Nav a{
+display: inline-block;
+color: gray;
+padding: 1%;
+font-family:Sansita Swashed ;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+
+margin-left: 1%;
+}
+  
+.Nav a:hover{
+      background-color: brown;
+      color: white;
+      transition: 1s;
+  }
+
+  .Nav span{
+    display: inline-block;
+    color: brown;
+    padding: 1%;
+    font-family:Sansita Swashed ;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    margin-left: 1%;
+    }
+      
+    
+
